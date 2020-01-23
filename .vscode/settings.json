@@ -1,5 +1,9 @@
 {
-    "python.pythonPath": "${workspaceFolder}/env/bin/python3.7",
-    "python.linting.pylintEnabled": true,
-    "editor.formatOnSave": true,
+  "python.pythonPath": "${workspaceFolder}/env/bin/python3.7",
+  "python.linting.pylintEnabled": true,
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/*.pyc": true,
+    "env": true
+  }
 }
